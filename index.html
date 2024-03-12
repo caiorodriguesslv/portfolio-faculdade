@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Rodrigues</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Importação da Lib Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" r
+    eferrerpolicy="no-referrer"/>
+</head>
+<body>
+    <!-- Header da Página-->
+    <header class="header">
+       <a href="#" class="logo">Caio Rodrigues</a>
+
+       <i class="fa-solid fa-bars"></i>
+       <nav class="navbar">
+           <a href="#home">Inicio</a>
+           <a href="#services">Serviços</a>
+           <a href="#skills">Habilidades</a>        
+           <a href="#contact">Contato</a>
+       </nav>
+    </header>
+
+    <!-- Seção Home da Página -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="/assets/images/img-logo.jpeg" alt="caio-foto">
+        </div>
+        <div class="home-content">
+            <h1>Olá, é o <span>Caio!</span></h1>
+            <h3 class="typing-text">Eu sou um <span>Analista de Sistemas</span></h3>
+            <p>Analista de Sistemas Junior com 2 anos de experiência em desenvolvimento de API 's utilizando Python (Django) e
+                Java (Spring) e Consumo de API's com React.JS
+            </p>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/caiorodriguessv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/caiorodriguesslv" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.instagram.com/caiordgsv/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Contrate-me</a>
+        </div>
+    </section>
+    <!-- Seção de Serviços -->
+    <section class="services" id="services">
+        <h2 class="heading">Serviços</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Desenvolvimento de API's Rest</h4>
+                    <p>A utilização da arquitetura REST, portanto, permite a comunicação entre aplicações. Facilidade de execução e formato descomplicado em Java e Python</p>
+               </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Arquitetura de Microsserviços</h4>
+                    <p>Desenvolvimento de aplicações baseadas na arquitetura de Microsserviços Java e Python.</p>
+               </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Containerização com Docker</h4>
+                    <p>Trabalhando com Containerização utilizando a Ferramenta Docker, gerando mais confiabilidade no código e desenvolvimento remoto com eficiência.</p>
+               </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Desenvolvimento com React</h4>
+                    <p>Utilização de framework JavaScript para Desenhar telas reativas e modernas.</p>
+               </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Oracle SQL</h4>
+                    <p>Banco de Dados Relacional SQL, para consultas e armazenamento de dados com eficiência.</p>
+               </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Cloud AWS</h4>
+                    <p>Computação em nuvem com Amazon Web Services(AWS).</p>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Habilidades -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Habilidades</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/images/py1.jpeg" alt="">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/images/java1.png" alt="">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/images/react1.webp" alt="">
+                        <span>React.JS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/images/docker1.png" alt="">
+                        <span>Docker</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/images/oracle1.jpeg" alt="">
+                        <span>Oracle SQL</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/images/aws1.png" alt="">
+                        <span>AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Contato-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contato</h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <input type="Number" placeholder="Telefone" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+    </section>
+    
+    <!-- Footer da Página -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/caiorodriguessv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/caiorodriguesslv" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.instagram.com/caiordgsv/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+        <p class="copyright">
+            ©️ Caio Rodrigues | All Rights Reserved
+        </p>
+
+    </footer>
+</body>
+</html>
